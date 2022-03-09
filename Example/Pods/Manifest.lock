@@ -1,16 +1,23 @@
 PODS:
-  - VryLibrary (0.1.0)
+  - SnapKit (5.0.1)
+  - VryLibrary (0.1.0):
+    - SnapKit (~> 5.0.1)
 
 DEPENDENCIES:
   - VryLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   VryLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VryLibrary: b22381773b76c6cd4d8bf41ef70502ff159788d5
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  VryLibrary: eae6e01cc7cf55802bde9f24e16aa26a3897932b
 
-PODFILE CHECKSUM: 6437b875e9989ab7a4a986be4108df5b4433ba38
+PODFILE CHECKSUM: f72b70638864ec4d4a3d0fe657113d6b674c1f40
 
 COCOAPODS: 1.11.2

@@ -1,5 +1,4 @@
 import XCTest
-import VryLibrary
 
 class Tests: XCTestCase {
     
