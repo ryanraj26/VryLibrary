@@ -42,8 +42,9 @@ class ViewController: UIViewController {
         view = customView
     }
     
-    @objc private func clicked() {
-        button.showLoadingDots()
+    private func clicked() {
+//        button.showLoadingDots()
+        print("Maybe????")
     }
     
     private lazy var customView: UIView = {
@@ -52,11 +53,11 @@ class ViewController: UIViewController {
     }()
     
     private lazy var button: VButton = {
-        let button = VButton(nil)
+        let button = VButton("VryHello")
 //        button.isUserInteractionEnabled = true
         
 //        button.setImage(UIImage.named(.vaultLogoWhite), for: .normal)
-        button.addTarget(self, action: #selector(clicked), for: .touchUpInside)
+        button.addTarget(action: clicked, for: .touchUpInside)
         customView.addSubview(button)
         return button
     }()

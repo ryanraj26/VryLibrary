@@ -35,6 +35,19 @@ open class VButton: UIButton {
         super.hideLoadingDots()
     }
     
+     public func addTarget(action: @escaping () -> Void, for controlEvents: UIControl.Event) {
+         self.action = action
+         super.addTarget(self, action: #selector(buttonAction), for: controlEvents)
+    }
+    
+    @objc func buttonAction() {
+        guard let action = action else {
+            return
+        }
+        self.showLoadingDots()
+        action()
+    }
+    
     // MARK: Inits
     public init(_ text: String?,
          style: VButtonStyle = .filled,
@@ -58,6 +71,7 @@ open class VButton: UIButton {
     private var style: VButtonStyle
     private var type: VButtonType
     private var text: String?
+    private var action: (() -> Void)?
 //    private var textColor: LabelColor
     
     
@@ -75,7 +89,8 @@ open class VButton: UIButton {
     
     private func configureButton() {
         self.snp.makeConstraints {
-            $0.height.equalTo(40)
+            $0.height.greaterThanOrEqualTo(40)
+            $0.width.greaterThanOrEqualTo(64)
         }
         layer.cornerRadius = 20
         layer.masksToBounds = false
@@ -130,7 +145,6 @@ open class VButton: UIButton {
 //        setTitleColor(textColor.color, for: .normal)
 //        setTitleColor(textColor.color.withAlphaComponent(0.75), for: .disabled)
 //
-//        minimumSize = CGSize(width: 64, height: 40)
     }
     
     private func configureTextButton() {
@@ -144,6 +158,7 @@ open class VButton: UIButton {
         self.layer.masksToBounds = false
         self.layer.shadowOffset = CGSize(width: 1.0, height: 2.0)
         self.layer.shadowOpacity = 0.5
+        layer.cornerRadius = 20
 //        self.layer.cornerRadius = 14
 //        setImage(UIImage.named(.vaultLogo), for: .normal)
 //        let shadowLayer = CAShapeLayer()
