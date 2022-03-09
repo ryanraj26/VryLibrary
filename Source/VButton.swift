@@ -8,16 +8,16 @@
 import UIKit
 import SnapKit
 
-public enum VryButtonStyle {
+public enum VButtonStyle {
     case filled, text
 }
 
-public enum VryButtonType {
+public enum VButtonType {
     case primary, secondary, cancel, delete
 }
 
 
-open class VryButton: UIButton {
+open class VButton: UIButton {
     // MARK: Public API
     ///Shows in-button indicator AND disables
     override public func showLoadingDots(color: UIColor = .white, withBackdrop: Bool = false, opacity: Float = 0.4, retries: Int = 4) {
@@ -37,8 +37,8 @@ open class VryButton: UIButton {
     
     // MARK: Inits
     public init(_ text: String?,
-         style: VryButtonStyle = .filled,
-         type: VryButtonType = .primary) {
+         style: VButtonStyle = .filled,
+         type: VButtonType = .primary) {
         self.style = style
         self.type = type
         self.text = text
@@ -55,8 +55,8 @@ open class VryButton: UIButton {
         configureButton()
     }
     
-    private var style: VryButtonStyle
-    private var type: VryButtonType
+    private var style: VButtonStyle
+    private var type: VButtonType
     private var text: String?
 //    private var textColor: LabelColor
     
@@ -233,7 +233,7 @@ open class VryButton: UIButton {
 
         public  var download_icon: UIImage {
 //            return .named(.vaultLogoWhite, bundle: podsBundle)//imageFor(name: "vault-logo-white")
-            let podbundle = Bundle(for: VryButton.self) // for getting pod url
+            let podbundle = Bundle(for: VButton.self) // for getting pod url
                 if let url = podbundle.url(forResource: "PodBundle", withExtension: "bundle") { //<YourBundleName> must be the same as you wrote in .podspec
                     let bundle = Bundle(url: url)
                     return UIImage(named: "Vault_Logo_WHT", in: bundle, compatibleWith: nil)!

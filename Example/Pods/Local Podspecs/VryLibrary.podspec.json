@@ -1,8 +1,8 @@
 {
   "name": "VryLibrary",
   "version": "0.1.0",
-  "summary": "VryLibrary ia a UI component",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "VryLibrary is a UI component library",
+  "description": "'VryLibrary is a UI component library for Veryable'",
   "homepage": "https://github.com/ryanraj26/VryLibrary",
   "license": {
     "type": "MIT",
@@ -18,10 +18,12 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "VryLibrary/Classes/**/*",
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.2",
   "dependencies": {
     "SnapKit": [
       "~> 5.0.1"
     ]
-  }
+  },
+  "swift_version": "5.2"
 }
