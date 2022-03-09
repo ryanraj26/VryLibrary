@@ -1,0 +1,22 @@
+{
+  "name": "VryLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of VryLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ryanraj26/VryLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ryanraj26": "ryan.raj27@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/ryanraj26/VryLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VryLibrary/Classes/**/*"
+}

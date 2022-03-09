@@ -1,0 +1,16 @@
+PODS:
+  - VryLibrary (0.1.0)
+
+DEPENDENCIES:
+  - VryLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  VryLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VryLibrary: b22381773b76c6cd4d8bf41ef70502ff159788d5
+
+PODFILE CHECKSUM: 6437b875e9989ab7a4a986be4108df5b4433ba38
+
+COCOAPODS: 1.11.2

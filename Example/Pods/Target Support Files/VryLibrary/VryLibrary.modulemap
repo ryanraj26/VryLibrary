@@ -1,0 +1,6 @@
+framework module VryLibrary {
+  umbrella header "VryLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
