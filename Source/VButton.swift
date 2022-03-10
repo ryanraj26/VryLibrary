@@ -23,8 +23,11 @@ open class VButton: UIButton {
     override public func showLoadingDots(color: UIColor = .white, withBackdrop: Bool = false, opacity: Float = 0.4, retries: Int = 4) {
         self.titleLabel?.alpha = 0
         self.isEnabled = false
-
-        super.showLoadingDots(color: color, withBackdrop: withBackdrop)
+        if style == .text {
+            super.showLoadingDots(color: hexStringToUIColor(hex: "#1F81C3"), withBackdrop: withBackdrop)
+        } else {
+            super.showLoadingDots(color: color, withBackdrop: withBackdrop)
+        }
     }
     
     ///Hides in-button indicator AND enables
@@ -44,6 +47,7 @@ open class VButton: UIButton {
         guard let action = action else {
             return
         }
+        setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3").withAlphaComponent(0.75), forState: .disabled)
         self.showLoadingDots()
         action()
     }
@@ -76,15 +80,29 @@ open class VButton: UIButton {
     
     
     public func setBackgroundColor(color: UIColor, forState: UIControl.State) {
-            self.clipsToBounds = true  // add this to maintain corner radius
-            UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
-            if let context = UIGraphicsGetCurrentContext() {
-                context.setFillColor(color.cgColor)
-                context.fill(CGRect(x: 0, y: 0, width: 1, height: 1))
-                let colorImage = UIGraphicsGetImageFromCurrentImageContext()
-                UIGraphicsEndImageContext()
-                self.setBackgroundImage(colorImage, for: forState)
+//            self.clipsToBounds = true  // add this to maintain corner radius
+//            UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
+//            if let context = UIGraphicsGetCurrentContext() {
+//                context.setFillColor(color.cgColor)
+//                context.fill(CGRect(x: 0, y: 0, width: 1, height: 1))
+//                let colorImage = UIGraphicsGetImageFromCurrentImageContext()
+//                UIGraphicsEndImageContext()
+//                self.setBackgroundImage(colorImage, for: forState)
+//            }
+        if style == .filled {
+        switch forState {
+            case .normal: self.backgroundColor =  color
+            case .disabled:
+                self.backgroundColor = color.withAlphaComponent(0.75)
+                self.layer.shadowOpacity = 0
+            default: self.backgroundColor = .clear
+        }
+        } else {
+            switch forState {
+                default: self.backgroundColor = .clear
             }
+        }
+
         }
     
     private func configureButton() {
@@ -92,11 +110,11 @@ open class VButton: UIButton {
             $0.height.greaterThanOrEqualTo(40)
             $0.width.greaterThanOrEqualTo(64)
         }
-        layer.cornerRadius = 20
-        layer.masksToBounds = false
         
         
-//        self.clipsToBounds = true
+        
+//        self.clipsToBounds = false
+//        layer.masksToBounds = false
         if let text = text {
             titleLabel!.font = UIFont(name: "AvenirNext-DemiBold", size: 13)!//UIFont(name: "AvenirNext-DemiBold", size: size)
             setTitle(text.localizedUppercase, for: .normal)
@@ -106,6 +124,11 @@ open class VButton: UIButton {
         switch style {
             case .filled:
                 configureFilledButton()
+//                setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .normal)
+//                self.backgroundColor = hexStringToUIColor(hex: "#1F81C3")
+                
+//                setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
+                
 //                applyContainedTheme(withScheme: Material.shared.container)
             case .text:
                 configureTextButton()
@@ -149,16 +172,24 @@ open class VButton: UIButton {
     
     private func configureTextButton() {
         setBackgroundColor(color: .clear, forState: .normal)
-        setTitleColor(.black, for: .normal)
+        setTitleColor(hexStringToUIColor(hex: "#1F81C3"), for: .normal)
     }
     
     private func configureFilledButton() {
-        setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .normal) //
+        
 //        setImage(download_icon, for: .normal)
+        
+//        self.clipsToBounds = true
+        setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .normal)
         self.layer.masksToBounds = false
         self.layer.shadowOffset = CGSize(width: 1.0, height: 2.0)
         self.layer.shadowOpacity = 0.5
-        layer.cornerRadius = 20
+        self.layer.cornerRadius = 2
+        
+         //
+        
+//        clipsToBounds = true
+//        self.layer.masksToBounds = false
 //        self.layer.cornerRadius = 14
 //        setImage(UIImage.named(.vaultLogo), for: .normal)
 //        let shadowLayer = CAShapeLayer()

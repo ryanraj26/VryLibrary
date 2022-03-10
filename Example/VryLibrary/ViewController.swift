@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     }()
     
     private lazy var button: VButton = {
-        let button = VButton("VryHello")
+        let button = VButton("VryHello", style: .filled)
 //        button.isUserInteractionEnabled = true
         
 //        button.setImage(UIImage.named(.vaultLogoWhite), for: .normal)
