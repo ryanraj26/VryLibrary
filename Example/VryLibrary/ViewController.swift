@@ -31,6 +31,11 @@ class ViewController: UIViewController {
             $0.center.equalTo(customView)
             $0.width.equalTo(150)
         }
+        button2.snp.makeConstraints {
+            $0.top.bottom.equalTo(button)
+            $0.left.equalTo(button.snp.right).offset(10)
+            $0.width.equalTo(100)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +48,12 @@ class ViewController: UIViewController {
     }
     
     private func clicked() {
-//        button.showLoadingDots()
+//        button2.hideLoadingDots()
+        print("Maybe????")
+    }
+    
+    private func clicked2() {
+        button.hideLoadingDots()
         print("Maybe????")
     }
     
@@ -55,9 +65,16 @@ class ViewController: UIViewController {
     private lazy var button: VButton = {
         let button = VButton("VryHello", style: .filled)
 //        button.isUserInteractionEnabled = true
-        
+//        button.setBackgroundColor(color: ThemeColorFill.blue.color, forState: .normal)
 //        button.setImage(UIImage.named(.vaultLogoWhite), for: .normal)
         button.addTarget(action: clicked, for: .touchUpInside)
+        customView.addSubview(button)
+        return button
+    }()
+    
+    private lazy var button2: VButton = {
+        let button = VButton("Hello 2", style: .filled)
+        button.addTarget(action: clicked2, for: .touchUpInside)
         customView.addSubview(button)
         return button
     }()
