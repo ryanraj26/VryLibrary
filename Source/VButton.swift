@@ -7,7 +7,7 @@
 
 import UIKit
 import SnapKit
-import RippleAnimation
+//import RippleAnimation
 
 public enum VButtonStyle {
     case filled, text
@@ -48,14 +48,14 @@ open class VButton: UIButton {
         guard let action = action else {
             return
         }
-        self.rippleAnimate(
-            color: hexStringToUIColor(hex: "#78B3DB"),
-            completionHandler: { [unowned self] in
-                self.setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
-//                self.showLoadingDots()
-                action()
-            }
-        )
+//        self.rippleAnimate(
+//            color: hexStringToUIColor(hex: "#78B3DB"),
+//            completionHandler: { [unowned self] in
+//                self.setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
+////                self.showLoadingDots()
+//                action()
+//            }
+//        )
     }
     
     override open var isEnabled: Bool {

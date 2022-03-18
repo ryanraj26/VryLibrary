@@ -10,7 +10,6 @@
 		018FD1C26C2FBFAAABE1D0F388958065 /* UICollectionView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3EA2058F48916DB1773586BEAB6AE /* UICollectionView+CollectionSkeleton.swift */; };
 		05DB9DCB0106C55FE4EF3C5BE109A9C7 /* Pods-VryLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0286334B81655DE51960EC5FAE0DF /* Pods-VryLibrary_Example-dummy.m */; };
 		0711A965534CC9C77BADBEE6A158F736 /* UITextView+Multiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5315DE6628B56AD192749D240C07F /* UITextView+Multiline.swift */; };
-		0F2FB2DAFA56BA8EEEF83C97A0739632 /* RippleAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F5E979D38C9357AF12523075BC9A3B /* RippleAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		105B0FB65DC9847223FF80477F34F589 /* VryLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A60ADFFFC73A296D50B5C3D9BB3A92B0 /* VryLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		131FC34A4638DD43505F4FE510B4BA72 /* SkeletonLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318C573608D1B93F7ED6FDB8AE2DBBA /* SkeletonLayerBuilder.swift */; };
 		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F265A613712BA4A396DD54A79FE4067 /* UILayoutSupport+Extensions.swift */; };
@@ -59,7 +58,6 @@
 		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB981B758AF11F17F9A72C9DB40E77 /* ConstraintDSL.swift */; };
 		9403D049E8E82C408D0FD0465DB0967F /* SkeletonFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF685F829BCFA7B7B90CB48DF5990AFA /* SkeletonFlow.swift */; };
 		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B0A1A3F1F3111C76E55F3792B7D548 /* SnapKit-dummy.m */; };
-		9F01BC29EB376FAB758C470BA9383343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244AFC3D29B8F80589F70D1D6039AF1 /* ConstraintDirectionalInsets.swift */; };
 		A108AAD2ACEF7CAD9F7A0725BCED62C1 /* UIFont+Vry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9277441560334DA84F4E5166812B8A4A /* UIFont+Vry.swift */; };
 		A247B938DD082A31A053364C1537D46E /* UILabel+Multiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32E1F9513CB57E74B0EFB010C124429 /* UILabel+Multiline.swift */; };
@@ -73,7 +71,6 @@
 		B08AFFF98AE6FBC7BE8679BA0DA63FD0 /* UIView+UIApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E2629CB5A0572EAC746EA1A6FA1924 /* UIView+UIApplicationDelegate.swift */; };
 		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2DE958E1D3E3975012020B2A513DFB /* ConstraintConfig.swift */; };
 		B6CC85D01FF4ABB0529EA7F43A6330F4 /* SkeletonCollectionViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA474826F2459AD73192FC77EDD2946 /* SkeletonCollectionViewProtocols.swift */; };
-		B93B5A5F19262A744FE95D0F899C3EBE /* RippleAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A7AEE97547B37BA433569A6BA824F /* RippleAnimation-dummy.m */; };
 		BA76C3AF2F649E47C7F0D093B1589493 /* SkeletonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045F8DA11B6B05BA89BD5E93A62A003 /* SkeletonAppearance.swift */; };
 		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F658C8C137BA96353F45E6A431537D /* ConstraintItem.swift */; };
 		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4E76741F6A91D621792F8B463392C /* ConstraintInsetTarget.swift */; };
@@ -89,7 +86,6 @@
 		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5EEE348D67803491CF9AB86E0D917 /* ConstraintMakerFinalizable.swift */; };
 		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8F11793EBA6D247CE96E9E76991D5 /* ConstraintRelation.swift */; };
 		D90366818F4D28CD2EC335FABF0542D0 /* SkeletonMultilineLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D41CEF4C29BD99A3C86DEB27D2E9C2 /* SkeletonMultilineLayerBuilder.swift */; };
-		DD084C6B34F6CABCC78D3073D1C5FBA1 /* RippleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609DB5F1CD33E40780554E2CE1602560 /* RippleAnimation.swift */; };
 		E0DBBB2F09D9003675982F9DC7EA3735 /* UITableView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C371999CDA8F449491BF21E0D1ED73 /* UITableView+CollectionSkeleton.swift */; };
 		E327BD30B3000CDF3CAF77B9C4004891 /* SkeletonTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2696B6FC314140519AC67CE71DF063E5 /* SkeletonTransitionStyle.swift */; };
 		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1509AA67523D48FBC3B5EFBFFE48B56 /* ConstraintPriorityTarget.swift */; };
@@ -113,26 +109,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		026C76106D23B01941D95BC2306AFB68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B5621B74389C3DEB335D0FB0352E19F;
-			remoteInfo = RippleAnimation;
-		};
 		2A264D5C22BE735F7E6AC597F1E4AF3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A91FDB0B6FF41B2B61B217D72CA9B2D3;
 			remoteInfo = VryLibrary;
-		};
-		9B5252DFDB68F13A153A283E61A1505D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B5621B74389C3DEB335D0FB0352E19F;
-			remoteInfo = RippleAnimation;
 		};
 		9C58B32AEB2B8D0114E6C0001C1C3E6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -176,14 +158,12 @@
 		05D3D2FC1305E9D2AB6ED04A06D88394 /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "Sources/Transitions/UIView+Transitions.swift"; sourceTree = "<group>"; };
 		0792FBDCF0CBD1061D7F8DE899BFA432 /* ThemeColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeColor.swift; path = Source/ThemeColor.swift; sourceTree = "<group>"; };
 		07A659ED77AF80B64D32963B1D084C44 /* SkeletonAnimationBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAnimationBuilder.swift; path = Sources/SkeletonAnimationBuilder.swift; sourceTree = "<group>"; };
-		0C4A7AEE97547B37BA433569A6BA824F /* RippleAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RippleAnimation-dummy.m"; sourceTree = "<group>"; };
 		0CAFAE832EB1D4F531D40CC9B1ECDC03 /* Pods-VryLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VryLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1186A10AC099E3492B1FCC218DB14803 /* Pods-VryLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VryLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		162C4F456862AE63D9E34F8E36FEA696 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		17110ABCEC800029C717A7F0CFBBC0F0 /* SkeletonGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonGradient.swift; path = Sources/SkeletonGradient.swift; sourceTree = "<group>"; };
 		1A7AB192834AE1E0BDF6A155D921651D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1B2DE958E1D3E3975012020B2A513DFB /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		1C070869D68D65DD8D71FDF689D5CB8D /* RippleAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RippleAnimation-Info.plist"; sourceTree = "<group>"; };
 		204887FEB408375974F38B57B34C933A /* Pods-VryLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VryLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		22C72AD398454B0DB3E2EEE4EE8086AD /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		2696B6FC314140519AC67CE71DF063E5 /* SkeletonTransitionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTransitionStyle.swift; path = Sources/Transitions/SkeletonTransitionStyle.swift; sourceTree = "<group>"; };
@@ -191,7 +171,6 @@
 		26CAA33F4075DB43F64C552023960A5A /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		27016B96C50563DB9A6175D88E12DCB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2D54A3D7E715284952E4F04A0A4A910F /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Sources/Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
-		2DC398603B89180CB1E4B66667FA7BDA /* RippleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RippleAnimation.modulemap; sourceTree = "<group>"; };
 		33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VryLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B0A1A3F1F3111C76E55F3792B7D548 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		386E6816020D436F2EA7849139E6AE2F /* Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzling.swift; path = Sources/Helpers/Swizzling.swift; sourceTree = "<group>"; };
@@ -199,7 +178,6 @@
 		3A1BAD4CC03333274CD7E2F8F12DFA2B /* SkeletonCollectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionDataSource.swift; path = Sources/Collections/SkeletonCollectionDataSource.swift; sourceTree = "<group>"; };
 		3F265A613712BA4A396DD54A79FE4067 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		464892EB0DE2ABA2E1B4F3FA814761C3 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		471252FA3929792CD90AAC3746E4D39C /* RippleAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RippleAnimation.release.xcconfig; sourceTree = "<group>"; };
 		4766EC9FC455E19C6AB87E6678E939B7 /* VButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VButton.swift; path = Source/VButton.swift; sourceTree = "<group>"; };
 		4811863DF44BC5B115E6A39EB38124C4 /* SkeletonView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonView-Info.plist"; sourceTree = "<group>"; };
 		4A89C2B0E35BD1C5C48760E263213C2A /* SkeletonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonView-dummy.m"; sourceTree = "<group>"; };
@@ -212,12 +190,10 @@
 		4EE5EEE348D67803491CF9AB86E0D917 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		50F066C66BC59E942185BEF9999D2DF2 /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = Sources/SkeletonView.swift; sourceTree = "<group>"; };
 		51B147DE1948FAE757EF19A574B3964E /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		53E6EB691A5776A6FD09656D0BCC9198 /* RippleAnimation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RippleAnimation; path = RippleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		543849AE844D36186F313E95C00D5D19 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		580717776C174B1FE0117C6ABA1A39E2 /* SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.release.xcconfig; sourceTree = "<group>"; };
 		592B576AA66D5DACB34104F3A17C1084 /* SkeletonDebug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonDebug.swift; path = Sources/Debug/SkeletonDebug.swift; sourceTree = "<group>"; };
 		6058B6DA1CA934D895A7A6F9F81A7A33 /* SkeletonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-umbrella.h"; sourceTree = "<group>"; };
-		609DB5F1CD33E40780554E2CE1602560 /* RippleAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleAnimation.swift; path = RippleAnimation/RippleAnimation.swift; sourceTree = "<group>"; };
 		627B0FE265F6F9A8B3BF65DB303649B0 /* SkeletonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonView.modulemap; sourceTree = "<group>"; };
 		6623E7CC1422768DBC549353185CE6FA /* GenericCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericCollectionView.swift; path = Sources/Collections/Generics/GenericCollectionView.swift; sourceTree = "<group>"; };
 		679934D107DA2B282327BCAA694EBC2C /* Pods-VryLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VryLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -237,7 +213,6 @@
 		7A459D7135A7BE55CF7E7B9CDA4A6EE0 /* PrepareForSkeletonProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrepareForSkeletonProtocol.swift; path = Sources/Helpers/PrepareForSkeletonProtocol.swift; sourceTree = "<group>"; };
 		7AB0FC7500D514562E77DD61218D0067 /* Pods-VryLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VryLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VryLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		803421A4FA60CB289CA668F207328144 /* RippleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RippleAnimation-prefix.pch"; sourceTree = "<group>"; };
 		81DD82F85FAAE6FA4F715A7C4D4A66EC /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		821EB012FF09910EC74125B61BD8C90A /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		83F10CAC32224D52435F42E8E7D9F8A0 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
@@ -273,7 +248,6 @@
 		AE3148E91A6E12624AB7E145350F4736 /* Pods-VryLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VryLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B045F8DA11B6B05BA89BD5E93A62A003 /* SkeletonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAppearance.swift; path = Sources/Appearance/SkeletonAppearance.swift; sourceTree = "<group>"; };
 		B22B15C12B639F0DF45DCD48F0A82809 /* RecursiveProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveProtocol.swift; path = Sources/Helpers/RecursiveProtocol.swift; sourceTree = "<group>"; };
-		B2F5E979D38C9357AF12523075BC9A3B /* RippleAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RippleAnimation-umbrella.h"; sourceTree = "<group>"; };
 		B45C951FD7BE4A831DD9E41973D683DF /* Pods-VryLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VryLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4A39BBFAE99D3D3391B5C1A1D773773 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		B50B30F7A6D115C591A7B75BC4A7B222 /* UIView+Loading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Loading.swift"; path = "Source/UIView+Loading.swift"; sourceTree = "<group>"; };
@@ -289,7 +263,6 @@
 		CEF32F3CD5EFF8BBC58DD345FC49DD8B /* CALayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extensions.swift"; path = "Sources/Extensions/CALayer+Extensions.swift"; sourceTree = "<group>"; };
 		CF685F829BCFA7B7B90CB48DF5990AFA /* SkeletonFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonFlow.swift; path = Sources/SkeletonFlow.swift; sourceTree = "<group>"; };
 		CFC5315DE6628B56AD192749D240C07F /* UITextView+Multiline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Multiline.swift"; path = "Sources/Multilines/UITextView+Multiline.swift"; sourceTree = "<group>"; };
-		CFC72B1F74F7DA410DF8BF4726AB507F /* RippleAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RippleAnimation.debug.xcconfig; sourceTree = "<group>"; };
 		D1509AA67523D48FBC3B5EFBFFE48B56 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		D318C573608D1B93F7ED6FDB8AE2DBBA /* SkeletonLayerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonLayerBuilder.swift; path = Sources/Builders/SkeletonLayerBuilder.swift; sourceTree = "<group>"; };
 		D8E0286334B81655DE51960EC5FAE0DF /* Pods-VryLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VryLibrary_Example-dummy.m"; sourceTree = "<group>"; };
@@ -321,14 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C27EBDC9BCFDFE0556CA96C025E05B9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BA016A7639FE0ABD0C0A7BBFA2B8448 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F01BC29EB376FAB758C470BA9383343 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +476,6 @@
 			children = (
 				7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */,
 				4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods_VryLibrary_Tests.framework */,
-				53E6EB691A5776A6FD09656D0BCC9198 /* RippleAnimation */,
 				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
 				33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary.framework */,
@@ -546,15 +510,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D1C85285BD7A8ECB198E947586C939C2 /* RippleAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				609DB5F1CD33E40780554E2CE1602560 /* RippleAnimation.swift */,
-				F64C41D07F5FDF36F04E35A12591150D /* Support Files */,
-			);
-			path = RippleAnimation;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,7 +538,6 @@
 		E293D17B177874ED80D2E3534ACB861D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1C85285BD7A8ECB198E947586C939C2 /* RippleAnimation */,
 				477F75A48EB4F6D19D5E53D988005CC5 /* SkeletonView */,
 				02698F9F397A2A9A706CFF2966C07650 /* SnapKit */,
 			);
@@ -634,21 +588,6 @@
 			path = "Target Support Files/Pods-VryLibrary_Tests";
 			sourceTree = "<group>";
 		};
-		F64C41D07F5FDF36F04E35A12591150D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DC398603B89180CB1E4B66667FA7BDA /* RippleAnimation.modulemap */,
-				0C4A7AEE97547B37BA433569A6BA824F /* RippleAnimation-dummy.m */,
-				1C070869D68D65DD8D71FDF689D5CB8D /* RippleAnimation-Info.plist */,
-				803421A4FA60CB289CA668F207328144 /* RippleAnimation-prefix.pch */,
-				B2F5E979D38C9357AF12523075BC9A3B /* RippleAnimation-umbrella.h */,
-				CFC72B1F74F7DA410DF8BF4726AB507F /* RippleAnimation.debug.xcconfig */,
-				471252FA3929792CD90AAC3746E4D39C /* RippleAnimation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RippleAnimation";
-			sourceTree = "<group>";
-		};
 		FA3A2B3575F1DE587ED3BCCE751EC6D1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,14 +628,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B581F91F093DC29865A15A063577086 /* Pods-VryLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A53046068CDED0AE256B9867C87C6684 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F2FB2DAFA56BA8EEEF83C97A0739632 /* RippleAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,7 +691,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				248E04E5E85DFE5D3C0DDA4432488F70 /* PBXTargetDependency */,
 				C156AF96C49AA00DD144F9DE8B42D957 /* PBXTargetDependency */,
 				96631F3E6DFE344F820D800F51CEA5F2 /* PBXTargetDependency */,
 				F34719A43BDE5D2F8180AB90E1B39CB8 /* PBXTargetDependency */,
@@ -768,24 +698,6 @@
 			name = "Pods-VryLibrary_Example";
 			productName = Pods_VryLibrary_Example;
 			productReference = 7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8B5621B74389C3DEB335D0FB0352E19F /* RippleAnimation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C3FC179B96D5BB383F06C3E4D852936 /* Build configuration list for PBXNativeTarget "RippleAnimation" */;
-			buildPhases = (
-				A53046068CDED0AE256B9867C87C6684 /* Headers */,
-				E40ABA824E82835110E597EFF977299E /* Sources */,
-				3BA016A7639FE0ABD0C0A7BBFA2B8448 /* Frameworks */,
-				4AFBDEE4FEE17ED75499D1DE879ACEA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RippleAnimation;
-			productName = RippleAnimation;
-			productReference = 53E6EB691A5776A6FD09656D0BCC9198 /* RippleAnimation */;
 			productType = "com.apple.product-type.framework";
 		};
 		8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */ = {
@@ -818,7 +730,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2F2170EEA0852B072FFF9B9AF50E464A /* PBXTargetDependency */,
 				5D21F504768CF80B82CECCE6D5D53EB1 /* PBXTargetDependency */,
 				453EC4B6DB1E6192CAC457BEAF6091F5 /* PBXTargetDependency */,
 			);
@@ -851,7 +762,6 @@
 			targets = (
 				37BB5B01131F44FC09774116DC11844C /* Pods-VryLibrary_Example */,
 				28BF475B94E482251F83F74F89415347 /* Pods-VryLibrary_Tests */,
-				8B5621B74389C3DEB335D0FB0352E19F /* RippleAnimation */,
 				8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */,
 				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 				A91FDB0B6FF41B2B61B217D72CA9B2D3 /* VryLibrary */,
@@ -868,13 +778,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2A86EC19ED78F2FAA7E28866438FDE5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4AFBDEE4FEE17ED75499D1DE879ACEA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1029,30 +932,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E40ABA824E82835110E597EFF977299E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD084C6B34F6CABCC78D3073D1C5FBA1 /* RippleAnimation.swift in Sources */,
-				B93B5A5F19262A744FE95D0F899C3EBE /* RippleAnimation-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		248E04E5E85DFE5D3C0DDA4432488F70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RippleAnimation;
-			target = 8B5621B74389C3DEB335D0FB0352E19F /* RippleAnimation */;
-			targetProxy = 026C76106D23B01941D95BC2306AFB68 /* PBXContainerItemProxy */;
-		};
-		2F2170EEA0852B072FFF9B9AF50E464A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RippleAnimation;
-			target = 8B5621B74389C3DEB335D0FB0352E19F /* RippleAnimation */;
-			targetProxy = 9B5252DFDB68F13A153A283E61A1505D /* PBXContainerItemProxy */;
-		};
 		453EC4B6DB1E6192CAC457BEAF6091F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
@@ -1156,37 +1038,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		26374ADBCCD21E9D5EEA46A9D35464F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFC72B1F74F7DA410DF8BF4726AB507F /* RippleAnimation.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RippleAnimation/RippleAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RippleAnimation/RippleAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RippleAnimation/RippleAnimation.modulemap";
-				PRODUCT_MODULE_NAME = RippleAnimation;
-				PRODUCT_NAME = RippleAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4827A46E863C1C61FEFBAE7508A07252 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1415,38 +1266,6 @@
 			};
 			name = Release;
 		};
-		96F7E578C862EEDC6A22F0AF509467BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 471252FA3929792CD90AAC3746E4D39C /* RippleAnimation.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RippleAnimation/RippleAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RippleAnimation/RippleAnimation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RippleAnimation/RippleAnimation.modulemap";
-				PRODUCT_MODULE_NAME = RippleAnimation;
-				PRODUCT_NAME = RippleAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1616,15 +1435,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C3FC179B96D5BB383F06C3E4D852936 /* Build configuration list for PBXNativeTarget "RippleAnimation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26374ADBCCD21E9D5EEA46A9D35464F3 /* Debug */,
-				96F7E578C862EEDC6A22F0AF509467BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
