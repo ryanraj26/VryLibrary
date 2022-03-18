@@ -48,7 +48,8 @@ class ViewController: UIViewController {
     }
     
     private func clicked() {
-//        button2.hideLoadingDots()
+        button.showLoadingDots()
+        button2.hideLoadingDots()
         print("Maybe????")
     }
     
@@ -67,6 +68,7 @@ class ViewController: UIViewController {
 //        button.isUserInteractionEnabled = true
 //        button.setBackgroundColor(color: ThemeColorFill.blue.color, forState: .normal)
 //        button.setImage(UIImage.named(.vaultLogoWhite), for: .normal)
+        button.isEnabled = false
         button.addTarget(action: clicked, for: .touchUpInside)
         customView.addSubview(button)
         return button

@@ -41,4 +41,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SnapKit', '~> 5.0.1'
+   s.dependency 'RippleAnimation'
+   s.dependency 'SkeletonView', '1.8.2'
 end

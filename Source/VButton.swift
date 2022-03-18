@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import RippleAnimation
 
 public enum VButtonStyle {
     case filled, text
@@ -47,16 +48,28 @@ open class VButton: UIButton {
         guard let action = action else {
             return
         }
-//        setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
-//        self.showLoadingDots()
-        action()
+        self.rippleAnimate(
+            color: hexStringToUIColor(hex: "#78B3DB"),
+            completionHandler: { [unowned self] in
+                self.setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
+//                self.showLoadingDots()
+                action()
+            }
+        )
+    }
+    
+    override open var isEnabled: Bool {
+        didSet {
+            self.setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .disabled)
+            super.isEnabled = isEnabled
+        }
     }
     
     // MARK: Inits
     public init(_ text: String?,
          style: VButtonStyle = .filled,
          type: VButtonType = .primary,
-         textColor: UIColor = .black
+         textColor: UIColor = .white
     ) {
         self.style = style
         self.type = type
@@ -147,13 +160,18 @@ open class VButton: UIButton {
 //                    )
 //            }
 //        }
+        
+        setTitleColor(textColor, for: .normal)
+        setTitleColor(textColor.withAlphaComponent(0.75), for: .disabled)
 
     }
     
     private func configureTextButton() {
         setBackgroundColor(color: .clear, forState: .normal)
 //        setBackgroundColor(color: hexStringToUIColor(hex: "#1F81C3"), forState: .highlighted)
-        setTitleColor(hexStringToUIColor(hex: "#1F81C3"), for: .normal)
+        let titleColor = hexStringToUIColor(hex: "#1F81C3")
+        setTitleColor(titleColor, for: .normal)
+        setTitleColor(titleColor.withAlphaComponent(0.75), for: .disabled)
     }
     
     private func configureFilledButton() {
