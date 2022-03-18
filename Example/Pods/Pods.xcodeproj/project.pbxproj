@@ -192,7 +192,7 @@
 		27016B96C50563DB9A6175D88E12DCB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2D54A3D7E715284952E4F04A0A4A910F /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Sources/Extensions/UIView+Extension.swift"; sourceTree = "<group>"; };
 		2DC398603B89180CB1E4B66667FA7BDA /* RippleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RippleAnimation.modulemap; sourceTree = "<group>"; };
-		33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VryLibrary; path = VryLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VryLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B0A1A3F1F3111C76E55F3792B7D548 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		386E6816020D436F2EA7849139E6AE2F /* Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzling.swift; path = Sources/Helpers/Swizzling.swift; sourceTree = "<group>"; };
 		39D76791341A590A1CE9C6B7333970C6 /* ContainsMultilineText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainsMultilineText.swift; path = Sources/Multilines/ContainsMultilineText.swift; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		4BA474826F2459AD73192FC77EDD2946 /* SkeletonCollectionViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionViewProtocols.swift; path = Sources/Collections/CollectionViews/SkeletonCollectionViewProtocols.swift; sourceTree = "<group>"; };
 		4C45CD86CF1ED51359CF766AC6C3EEE8 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		4CE630B32CE7181D7820D9F27CAF2A1F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods-VryLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VryLibrary_Tests"; path = Pods_VryLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods_VryLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VryLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE5EEE348D67803491CF9AB86E0D917 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		50F066C66BC59E942185BEF9999D2DF2 /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = Sources/SkeletonView.swift; sourceTree = "<group>"; };
 		51B147DE1948FAE757EF19A574B3964E /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -236,7 +236,7 @@
 		77038AF2019052055D11C7828099CB45 /* Pods-VryLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VryLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A459D7135A7BE55CF7E7B9CDA4A6EE0 /* PrepareForSkeletonProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrepareForSkeletonProtocol.swift; path = Sources/Helpers/PrepareForSkeletonProtocol.swift; sourceTree = "<group>"; };
 		7AB0FC7500D514562E77DD61218D0067 /* Pods-VryLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VryLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods-VryLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VryLibrary_Example"; path = Pods_VryLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VryLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		803421A4FA60CB289CA668F207328144 /* RippleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RippleAnimation-prefix.pch"; sourceTree = "<group>"; };
 		81DD82F85FAAE6FA4F715A7C4D4A66EC /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		821EB012FF09910EC74125B61BD8C90A /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
@@ -509,12 +509,12 @@
 		A08EBE90C31C84CD226F2B2B959DC32D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods-VryLibrary_Example */,
-				4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods-VryLibrary_Tests */,
+				7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */,
+				4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods_VryLibrary_Tests.framework */,
 				53E6EB691A5776A6FD09656D0BCC9198 /* RippleAnimation */,
 				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
-				33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary */,
+				33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -745,7 +745,7 @@
 			);
 			name = "Pods-VryLibrary_Tests";
 			productName = Pods_VryLibrary_Tests;
-			productReference = 4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods-VryLibrary_Tests */;
+			productReference = 4DD611CE92A605FC8B4A682B8EE6CE79 /* Pods_VryLibrary_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		37BB5B01131F44FC09774116DC11844C /* Pods-VryLibrary_Example */ = {
@@ -767,7 +767,7 @@
 			);
 			name = "Pods-VryLibrary_Example";
 			productName = Pods_VryLibrary_Example;
-			productReference = 7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods-VryLibrary_Example */;
+			productReference = 7C9AD1BD275CAEA50608E7E550F3EA5A /* Pods_VryLibrary_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B5621B74389C3DEB335D0FB0352E19F /* RippleAnimation */ = {
@@ -824,7 +824,7 @@
 			);
 			name = VryLibrary;
 			productName = VryLibrary;
-			productReference = 33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary */;
+			productReference = 33ADDDECDC8D7B4F2DBEE1B5FA24E733 /* VryLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

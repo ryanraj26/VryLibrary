@@ -1,9 +1,7 @@
 PODS:
-  - RippleAnimation (0.1.1)
   - SkeletonView (1.8.2)
   - SnapKit (5.0.1)
-  - VryLibrary (0.1.1):
-    - RippleAnimation
+  - VryLibrary (0.1.2):
     - SkeletonView (= 1.8.2)
     - SnapKit (~> 5.0.1)
 
@@ -12,7 +10,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - RippleAnimation
     - SkeletonView
     - SnapKit
 
@@ -21,10 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RippleAnimation: 25dca5f010faf6b1577878e24790231735be4166
   SkeletonView: bb27c39857e5492136f02ee8a3aa78de55d12ecd
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  VryLibrary: b7b6f75c731d2123e1b723450674d0685a6c3ea7
+  VryLibrary: d4d9db8d4f992dd22b1e4d73c5d64bef1b229206
 
 PODFILE CHECKSUM: f72b70638864ec4d4a3d0fe657113d6b674c1f40
 

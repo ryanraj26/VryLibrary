@@ -1,6 +1,6 @@
 {
   "name": "VryLibrary",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "VryLibrary is a UI component library",
   "description": "'VryLibrary is a UI component library for Veryable'",
   "homepage": "https://github.com/ryanraj26/VryLibrary",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ryanraj26/VryLibrary.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "11.0"
@@ -23,9 +23,6 @@
   "dependencies": {
     "SnapKit": [
       "~> 5.0.1"
-    ],
-    "RippleAnimation": [
-
     ],
     "SkeletonView": [
       "1.8.2"
